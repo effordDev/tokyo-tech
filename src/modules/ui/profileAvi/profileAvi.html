@@ -1,15 +1,56 @@
 <template>
     
-    <div class="card-per">
-        <article class="card">
-            <img 
-                src={image} 
-                class={style}
-            >
-            <!-- <img 
-                src={backupImage} 
-                class={style}
-            > -->
-        </article>
-    </div>
+    <template if:true={flip}>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img 
+                        src={image} 
+                        class={style}
+                    >
+                </div>
+                <div class="flip-box-back">
+                    <img 
+                        src={backupImage}
+                        class={style}
+                    >
+                </div>
+
+            </div>
+        </div>
+    </template>
+    <template if:false={flip}>
+        <div>
+            <!-- <article class="card"> -->
+                <img 
+                    src={image} 
+                    class={style}
+                >
+            <!-- </article> -->
+        </div>
+    </template>
+    <!-- <template if:true={flip}>
+        <div class="card-per">
+            <article class="card">
+                <img 
+                    src={image} 
+                    class={style}
+                >
+                <img 
+                    src={backupImage}
+                    class={style}
+                >
+            </article>
+        </div>
+    </template>
+    <template if:false={flip}>
+        <div>
+            <article class="card">
+                <img 
+                    src={image} 
+                    class={style}
+                >
+            </article>
+        </div>
+    </template> -->
 </template>
