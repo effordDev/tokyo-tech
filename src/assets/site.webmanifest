@@ -2,12 +2,12 @@
     "background_color": "#fff",
     "display": "standalone",
     "icons": [{
-        "src": "/assets/images/apple-touch-icon.png",
+        "src": "/assets/images/AppIcons/Assets.xcassets/apple-touch-icon.png",
         "type": "image/png",
         "sizes": "512x512"
     }],
-    "name": "Lightning Web Components Recipes",
-    "short_name": "LWC Recipes",
+    "name": "Tokyo Tech",
+    "short_name": "Tokyo T",
     "start_url": "/#hello",
     "theme_color": "#fff"
 }
