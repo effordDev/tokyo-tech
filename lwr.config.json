@@ -6,9 +6,9 @@
     },
     "routes": [
         {
-            "id": "example",
+            "id": "app",
             "path": "/",
-            "rootComponent": "ui/app",
+            "rootComponent": "main/app",
             "layoutTemplate": "$layoutsDir/index.html"
         }
     ]
