@@ -297,4 +297,13 @@
         border-left: var(--border-gray);
         border-right: var(--border-gray);
     }
+
+    .item {
+        padding: 20px 30px;
+        font-weight: 300;
+        display: block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: var(--text-color);
+    }
 }
