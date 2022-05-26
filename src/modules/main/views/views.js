@@ -5,7 +5,7 @@ export default class Views extends LightningElement {
      views = []
 
      isHome = false
-     isDev = false
+     isTimeline = false
 
      @api get view() {
 		return this._current;

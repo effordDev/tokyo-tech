@@ -51,8 +51,8 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    /* background-color: #fff; */
 }
+/* background-color: #fff; */
 
 .header li {
     margin-bottom: 0;
@@ -62,15 +62,10 @@
     display: block;
     padding: 20px 20px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold !important;
     font-size: 1.5rem;
     color: var(--text-color);
 }
-
-/* .header li a:hover,
-.header .menu-btn:hover {
-    background-color: #f4f4f4; 
-} */
 
 .header .logo {
     display: block;
@@ -197,6 +192,16 @@
     background-color: var(--color-bg-hero);
 }
 
+.item {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    cursor: pointer;
+} 
+
 @media (min-width: 65em) {
     .embed-container iframe,
     .embed-container object,
@@ -289,6 +294,7 @@
 
     a:-webkit-any-link {
         color: #e0002e;
+        cursor: pointer;
     }
     
     .secondCard {
@@ -296,14 +302,5 @@
         border-bottom: none;
         border-left: var(--border-gray);
         border-right: var(--border-gray);
-    }
-
-    .item {
-        padding: 20px 30px;
-        font-weight: 300;
-        display: block;
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: var(--text-color);
     }
 }

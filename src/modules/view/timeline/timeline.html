@@ -1,0 +1,12 @@
+<template>
+    <template for:each={timelineItems} for:item="item">
+        <div style="padding-top: 10px;" key={item.id}>
+            <ui-card>
+                <span slot="subtitle"> 
+                    {item.caption}
+                </span>
+                <img style="width: -webkit-fill-available" src={item.imgPath} />
+            </ui-card>
+        </div>
+    </template>
+</template>
