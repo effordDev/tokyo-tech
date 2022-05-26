@@ -14,6 +14,20 @@ const fetchTimelineDate = () => {
                caption: 'My first day home!',
                imgPath: '/public/assets/images/timeline/home.jpg',
           },
+          {
+               id: 2,
+               month: 4,
+               year: 2022,
+               caption: 'Staying warm',
+               imgPath: '/public/assets/images/timeline/cozy.jpg',
+          },
+          {
+               id: 3,
+               month: 4,
+               year: 2022,
+               caption: 'zzZzzzZz',
+               imgPath: '/public/assets/images/timeline/bedNap.jpg',
+          },
      ]
 }
 
