@@ -1,12 +1,16 @@
 <template>
-    <template for:each={timelineItems} for:item="item">
-        <div style="padding-top: 10px;" key={item.id}>
-            <ui-card>
-                <span slot="subtitle"> 
-                    {item.caption}
-                </span>
-                <img style="width: -webkit-fill-available" src={item.imgPath} />
-            </ui-card>
-        </div>
-    </template>
+    <div class="flex-container wrap">
+        <template for:each={timelineItems} for:item="item">
+            <div class="flex-item" key={item.id}>
+                <ui-timeline-item
+                    item={item}
+                >
+                    <!-- <span slot="subtitle"> 
+                        {item.caption}
+                    </span>
+                    <img style="max-width: 525px; width: -webkit-fill-available" src={item.imgPath} /> -->
+                </ui-timeline-item>
+            </div>
+        </template>
+    </div>
 </template>
