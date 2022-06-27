@@ -42,6 +42,13 @@ const fetchTimelineDate = () => {
                caption: '👀',
                imgPath: '/public/assets/images/timeline/closeUp.jpg',
           },
+          {
+               id: 6,
+               month: 6,
+               year: 2022,
+               caption: 'My new tag',
+               imgPath: '/public/assets/images/timeline/tag.png',
+          },
      ]
 }
 
