@@ -1,0 +1,16 @@
+{
+  "background_color": "#cc00d1",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/images/AppIcons/Assets.xcassets/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "name": "Tokyo Tech",
+  "short_name": "Tokyo T",
+  "start_url": "/",
+  "theme_color": "#ff9800",
+  "lang": "en"
+}
