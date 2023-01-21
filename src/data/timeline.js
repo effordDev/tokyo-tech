@@ -56,6 +56,20 @@ const fetchTimelineDate = () => {
                caption: '👃🏽',
                imgPath: '/public/assets/images/timeline/tokyo.gif',
           },
+          {
+               id: 8,
+               month: 1,
+               year: 2023,
+               caption: '👃🏽',
+               imgPath: '/public/assets/images/timeline/ears.jpg',
+          },
+          {
+               id: 8,
+               month: 1,
+               year: 2023,
+               caption: '👃🏽',
+               imgPath: '/public/assets/images/timeline/whiskers.jpg',
+          },
      ]
 }
 

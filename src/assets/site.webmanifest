@@ -8,6 +8,6 @@
     }],
     "name": "Tokyo Tech",
     "short_name": "Tokyo T",
-    "start_url": "/#hello",
+    "start_url": "/",
     "theme_color": "#fff"
 }
