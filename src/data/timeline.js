@@ -60,14 +60,14 @@ const fetchTimelineDate = () => {
                id: 8,
                month: 1,
                year: 2023,
-               caption: '👃🏽',
+               caption: '👂🏽',
                imgPath: '/public/assets/images/timeline/ears.jpg',
           },
           {
                id: 8,
                month: 1,
                year: 2023,
-               caption: '👃🏽',
+               caption: 'ಠ෴ಠ',
                imgPath: '/public/assets/images/timeline/whiskers.jpg',
           },
      ]
